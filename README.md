@@ -6,4 +6,7 @@
   * The upper level problem determines the optimal control ratio of each OD pair; <br>
   * The lower level problem solves the mixed equilibrium of traffic assignment problem with multiple user classes (SO and UE users). <br>
   
-  A numerical example of [Sioux Falls network](https://github.com/bstabler/TransportationNetworks) is provided.
+  A numerical example of [Sioux Falls network](https://github.com/bstabler/TransportationNetworks) is provided. <br>
+  * The network and OD demand matrix is stored in 'sf.1' and 'sf.2'; <br>
+  * Class 'Network' is defined to store the network information. <br>
+  
