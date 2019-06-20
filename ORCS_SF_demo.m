@@ -62,25 +62,25 @@ xlabel('Number of iteration')
 ylabel('Total travel time')
 
 
-% % controlled demand
-% figure
-% so = sum(orcs.so.*net.od_demand)/sum(net.od_demand)*100;
-% plot(1:n, so)
-% xlabel('Number of iteration')
-% ylabel('Percentage of controlled demand')
-% 
-% % distribution of controled ratio
-% figure
-% hist(orcs.so(:,end))
-% xlabel('Control ratio')
-% ylabel('Number of OD pairs')
-% 
-% 
-% 
-% % elapsed time
-% figure
-% plot(1:n,elp(:,1), 1:n,elp(:,2))
-% legend('ADMM','multiTAP')
-% xlabel('Number of iteration')
-% ylabel('Elapsed time')
+% controlled demand
+figure
+so = sum(orcs.so.*net.od_demand)/sum(net.od_demand)*100;
+plot(1:n, so)
+xlabel('Number of iteration')
+ylabel('Percentage of controlled demand')
+
+% distribution of controled ratio
+figure
+hist(orcs.so(:,end))
+xlabel('Control ratio')
+ylabel('Number of OD pairs')
+
+
+
+% elapsed time
+figure
+plot(1:n,elp(:,1), 1:n,elp(:,2))
+legend('ADMM','multiTAP')
+xlabel('Number of iteration')
+ylabel('Elapsed time')
 
