@@ -1,4 +1,4 @@
-# ORCS
+# Optimal-Ratio Control Scheme (ORCS)
   This package includes Matlab codes based on the paper
   [Zhang, K., Nie, Y. M. (2018)](https://www.sciencedirect.com/science/article/pii/S0968090X17303728) <br>
   
